@@ -4,19 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body class="main-body">
     <div class="wrapper">
         <!--Header-->
         <header class="header">
             <div class="logo">Афродита</div>
             <div class="contacts">
-                <div class="contacts__phone">8 (800) 00-392-10</div>
-                <div class="contacts__schedule">График работы</div>
+                <a class="contacts__phone" href="tel:88000039210"> 8 (800) 00-392-10</a>
+                <a class="contacts__schedule" href="#">График работы</a>
             </div>
         </header>
-        
+
         <!--Main page-->
         <section class="page">
             <!--Menu-->
@@ -25,26 +26,24 @@
                     <ul class="nav-menu">
                         <li class="nav-menu__item">
                             <a href="" class="nav-menu__link">
-                                <div class="nav-menu__icon">
-                                    <img src="" alt="" class="">
-                                </div>
+                                <div class="nav-menu__icon1 nav-menu__icon-main"></div>
                                 <div class="nav-menu__text">Главная</div>
                             </a>
                         </li>
                         <li class="nav-menu__item">
                             <a href="" class="nav-menu__link">
-                                <div class="nav-menu__icon">
+                                <div class="nav-menu__icon2 nav-menu__icon-main">
                                     <img src="" alt="" class="">
                                 </div>
-                                <div class="nav-menu__text">Тарифы</div>
+                                <div class="nav-menu__text nav-menu__noaactive">Тарифы</div>
                             </a>
                         </li>
                         <li class="nav-menu__item">
-                            <a href="" class="nav-menu__link">
-                                <div class="nav-menu__icon">
+                            <a href="comments.html" class="nav-menu__link">
+                                <div class="nav-menu__icon3 nav-menu__icon-main">
                                     <img src="" alt="" class="">
                                 </div>
-                                <div class="nav-menu__text">Отзывы</div>
+                                <div class="nav-menu__text nav-menu__noaactive">Отзывы</div>
                             </a>
                         </li>
                     </ul>
@@ -54,32 +53,50 @@
             <!--Main page content-->
             <main class="main-content">
                 <div class="page-image">
-                    <img src="" alt="" class="page-image__picture">
-                    <div class="page-image__text">О компании</div>
+
+
+                    <div class="page-image__text">
+                        <img src="img/bg/bg-afrodita.jpg" alt="" class="page-image__picture">
+                        <h1 class="page-image__title">О компании</h1>
+                    </div>
                 </div>
 
                 <!--Page text-->
                 <div class="page-text">
-                    <p>
-                        Фитнес-центр «Афродита» приглашает вас оздоровиться и провести приятно время с друзьями или знакомыми, занимаясь вместе спортом.
-                        Квалифицированные тренеры найдут индивидуальный подход к каждому, помогут достигнуть поставленных
-                        целей и определят оптимальную нагрузку. Нашим главным отличием мы считаем огромный 50 метровый бассейн,
-                        состоящий из 6 дорожек. Помимо бассейна в зоне отдыха установлены финские сауны и турецкий хамам.
-                        Это прекрасный вариант для восстановления после тяжелой тренировки. На первом этаже в фитобаре вы
-                        сможете заказать травяные чаи, белковые коктейли, минеральную воду и протеиновые батончики. Также
-                        здесь есть детская комната с воспитателями и нянями, которые присмотрят за вашими детьми в течение
-                        тренировки. Наши цены на 100% оправданы высоким качеством сервиса. Если вы хотите выгодно приобрести
-                        абонемент, обращайтесь к администраторам, которые подскажут оптимальные программы конкретно под ваши
-                        потребности. Нашими ключевыми направлениями остаются:
-                    </p>
-                    <ul>
-                        <li>
-                            йога;
-                        </li>
-                        <li>
-                            йога;
-                        </li>
-                    </ul>
+                    <p class="paragraph">
+                        <b>Фитнес-центр «Афродита»</b> приглашает вас оздоровиться и провести приятно время с друзьями или
+                        знакомыми, занимаясь вместе спортом. Квалифицированные тренеры найдут индивидуальный подход к каждому,
+                        помогут достигнуть поставленных целей и определят оптимальную нагрузку.</p>
+                    <p class="paragraph">
+                        Нашим главным отличием мы считаем огромный <b>50 метровый бассейн</b>, состоящий из 6 дорожек. Помимо
+                        бассейна в зоне отдыха установлены финские сауны и турецкий хамам. Это прекрасный вариант для восстановления
+                        после тяжелой тренировки.
+                        <p class="paragraph">
+                            На первом этаже в фитобаре вы сможете заказать травяные чаи, белковые коктейли, минеральную воду и протеиновые батончики.
+                            Также здесь есть детская комната с воспитателями и нянями, которые присмотрят за вашими детьми
+                            в течение тренировки.
+                        </p>
+                        <p class="paragraph">
+                            Наши цены на 100% оправданы высоким качеством сервиса. Если вы хотите выгодно приобрести абонемент, обращайтесь к администраторам,
+                            которые подскажут оптимальные программы конкретно под ваши потребности. <b>Нашими ключевыми направлениями остаются:</b>
+                        </p>
+                        <ul>
+                            <li>
+                                йога;
+                            </li>
+                            <li>
+                                фитнес;
+                            </li>
+                            <li>
+                                занятия в бассейне;
+                            </li>
+                            <li>
+                                кроссфит;
+                            </li>
+                            <li>
+                                ТРХ петли.
+                            </li>
+                        </ul>
                 </div>
                 <div class="description">
                     <p>
@@ -90,37 +107,38 @@
                 </div>
 
                 <!--Partners block-->
+                <h2 class="partners-header">Партнёры</h2>
                 <div class="partners">
                     <h2 class="partners__title"></h2>
                     <ul class="partners_list">
                         <li class="partners__item">
                             <a class="partners__link" href="">
-                            <img src="" alt="" class="partners__image">
+                            <img src="img/logo/logo-1.png" alt="" class="partners__image">
                         </a>
                         </li>
                         <li class="partners__item">
                             <a class="partners__link" href="">
-                            <img src="" alt="" class="partners__image">
+                            <img src="img/logo/logo-2.png" alt="" class="partners__image">
                         </a>
                         </li>
                         <li class="partners__item">
                             <a class="partners__link" href="">
-                            <img src="" alt="" class="partners__image">
+                            <img src="img/logo/logo-3-color.png" alt="" class="partners__image">
                         </a>
                         </li>
                         <li class="partners__item">
                             <a class="partners__link" href="">
-                            <img src="" alt="" class="partners__image">
+                            <img src="img/logo/logo-4.png" alt="" class="partners__image">
                         </a>
                         </li>
                         <li class="partners__item">
                             <a class="partners__link" href="">
-                            <img src="" alt="" class="partners__image">
+                            <img src="img/logo/logo-5.png" alt="" class="partners__image">
                         </a>
                         </li>
                         <li class="partners__item">
                             <a class="partners__link" href="">
-                            <img src="" alt="" class="partners__image">
+                            <img src="img/logo/logo-6.png" alt="" class="partners__image">
                         </a>
                         </li>
                     </ul>
@@ -129,8 +147,43 @@
         </section>
 
         <footer class="footer">
-
+            <div class="lefttext">
+                Сделано с любовью и старанием<br> на курсе «HTML + CSS» в <a class="footer__link" href="">LoftSchool</a>.<br>                Автор работы: <b>Прохладов Вадим</b>
+            </div>
+            <div class="logo">Афродита</div>
+            <div class="righttext">Наши социальные сети</div>
+            <div class="social-networks">
+                <div class="social-networks__text"></div>
+                <ul class="social-networks__list">
+                    <li class="social-networks__item">
+                        <a href="" class="social-networks__link">
+                            <div class="sn-icon sn-vk"> </div>
+                        </a>
+                    </li>
+                    <li class="social-networks__item">
+                        <a href="" class="social-networks__link">
+                            <div class="sn-icon sn-facebook"> </div>
+                        </a>
+                    </li>
+                    <li class="social-networks__item">
+                        <a href="" class="social-networks__link">
+                            <div class="sn-icon sn-google"> </div>
+                        </a>
+                    </li>
+                    <li class="social-networks__item">
+                        <a href="" class="social-networks__link">
+                            <div class="sn-icon sn-twitter"> </div>
+                        </a>
+                    </li>
+                    <li class="social-networks__item">
+                        <a href="" class="social-networks__link">
+                            <div class="sn-icon sn-mail"> </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </footer>
+
     </div>
 </body>
 
