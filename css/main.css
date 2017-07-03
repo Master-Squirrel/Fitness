@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'GoraFree';
+    src: url('../fonts/GoraFree-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSansLight-Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+body {
+    font-family: 'OpenSans';
+    font-weight: 300;
+    line-height: 1.42em;
+}
+h1, h2 {
+font-size: 49px;    
+}
+
+/*Главная страница*/
+
+.header {
+    background: #131415;
+}
+
+.logo {
+    font-family: GoraFree;
+    font-size:18px;
+    color: #f89513;
+}
+
+.contacts__phone {
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.contacts__schedule {
+    color: #f89513;
+    opacity: .7;
+    font-size: 14px;
+    font-weight:  bold;
+    text-decoration:  underline;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.nav-menu__link {
+    text-decoration: none;
+}
+
+.nav-menu .nav-menu__item:first-child .nav-menu__link:hover .nav-menu__icon-main {
+    background-image: url('../img/icons/main_icon_black.png')
+}
+.nav-menu .nav-menu__item:first-child .nav-menu__link:hover .nav-menu__text {
+    color: #f89513;
+}
+.nav-menu__icon-main {  
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 18px;
+    height: 15px;
+}
+.nav-menu__icon1 {
+    background-image: url('../img/icons/main_icon.png');
+}
+.nav-menu__icon2 {
+    background-image: url('../img/icons/service_icon.png');
+}
+.nav-menu__icon3 {
+    background-image: url('../img/icons/feed_icon.png');
+}
+.nav-menu__text {
+    color: #221f1f;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav-menu__noaactive {
+    color: #f89513;
+}
+
+/* Main page */
+
+.page-image__title {
+    
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight:  bold;
+}
+.text-description {
+    color: #221f1f;
+}
+.page-text {
+font-size: 18px;
+}
+.partners-header {
+    text-transform: uppercase;
+    color: #000000;
+}
+.partners_list {
+    list-style:  none;
+}
+
+/* Footer */
+.footer {
+    background: #131415;
+    font-size: 14px;
+    color: #ffffff;
+}
+.righttext {
+    font-weight: bold;
+}
+.social-networks__list {
+    list-style: none;
+}
+.footer__link {
+    color: #ffffff;
+    font-weight: bold;
+}
+.sn-icon {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.sn-vk {
+    background: url("../img/icons/vk-color.png")
+}
+.sn-facebook {
+    background: url("../img/icons/fb.png")
+}
+.sn-google {
+    background: url("../img/icons/google.png")
+}
+.sn-twitter {
+    background: url("../img/icons/twitter.png")
+}
+.sn-mail {
+    background: url("../img/icons/mail.png")
+}
