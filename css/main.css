@@ -73,38 +73,29 @@ h2 {
     text-decoration: none;
 }
 
-.main-body .nav-menu .nav-menu__item:first-child .nav-menu__link:hover .nav-menu__icon-main {
-    background-image: url('../img/icons/main_icon-color.png')
-}
-
-.main-body .nav-menu .nav-menu__item:first-child .nav-menu__link:hover .nav-menu__text {
+.nav-menu__selected:hover .nav-menu__text {
     color: #f89513;
 }
-
-.reviews-body .nav-menu .nav-menu__item:last-child .nav-menu__link:hover .nav-menu__icon-main {
-    background-image: url('../img/icons/feed_icon.png')
+.nav-menu__selected:hover .nav-menu__icon-reviews {
+    background: url("../img/icons/feed_icon-color.png")
 }
 
-.reviews-body .nav-menu .nav-menu__item:last-child .nav-menu__link:hover .nav-menu__text {
-    color: #f89513;
+.nav-menu__icon {
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 21px;
+    height: 19px;
 }
 
 .nav-menu__icon-main {
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 18px;
-    height: 15px;
+    background-image: url('../img/icons/main_icon-color.png');
 }
 
-.nav-menu__icon1 {
-    background-image: url('../img/icons/main_icon.png');
+.nav-menu__icon-tariffs {
+    background-image: url('../img/icons/service_icon-color.png');
 }
 
-.nav-menu__icon2 {
-    background-image: url('../img/icons/service_icon.png');
-}
-
-.nav-menu__icon3 {
+.nav-menu__icon-reviews {
     background-image: url('../img/icons/feed_icon.png');
 }
 
@@ -116,14 +107,6 @@ h2 {
 
 .nav-menu__noaactive {
     color: #f89513;
-}
-
-.reviews-body .nav-menu__icon1 {
-    background-image: url('../img/icons/main_icon-color.png');
-}
-
-.reviews-body .nav-menu__icon3 {
-    background-image: url('../img/icons/feed_icon_black.png');
 }
 
 
@@ -141,7 +124,7 @@ h2 {
 
 .page-text {
     font-size: 18px;
-    font-weight: bold;
+    
 }
 
 .partners-header {
@@ -151,6 +134,10 @@ h2 {
 
 .partners_list {
     list-style: none;
+}
+.description {
+    background: #000000;
+    color: #ffffff;
 }
 
 
@@ -205,7 +192,7 @@ h2 {
     color: #221f1f;
     font-weight: bold;
 }
-.paginator__figure:first-child {
+.paginator__figure:first-of-type {
     color: #f89513;
     font-weight: bold;
     background-color: #131415;

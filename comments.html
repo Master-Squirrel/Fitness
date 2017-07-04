@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body class="reviews-body">
+<body>
     <div class="wrapper">
         <header class="header">
             <div class="logo">Афродита</div>
@@ -23,22 +23,20 @@
                     <ul class="nav-menu">
                         <li class="nav-menu__item">
                             <a href="" class="nav-menu__link">
-                                <div class="nav-menu__icon1 nav-menu__icon-main"></div>
+                                <div class="nav-menu__icon nav-menu__icon-main"></div>
                                 <div class="nav-menu__text nav-menu__noaactive">Главная</div>
                             </a>
                         </li>
                         <li class="nav-menu__item">
                             <a href="" class="nav-menu__link">
-                                <div class="nav-menu__icon2 nav-menu__icon-main">
-                                    <img src="" alt="" class="">
+                                <div class="nav-menu__icon nav-menu__icon-tariffs">
                                 </div>
                                 <div class="nav-menu__text nav-menu__noaactive">Тарифы</div>
                             </a>
                         </li>
-                        <li class="nav-menu__item">
+                        <li class="nav-menu__item nav-menu__selected">
                             <a href="comments.html" class="nav-menu__link">
-                                <div class="nav-menu__icon3 nav-menu__icon-main">
-                                    <img src="" alt="" class="">
+                                <div class="nav-menu__icon nav-menu__icon-reviews">
                                 </div>
                                 <div class="nav-menu__text">Отзывы</div>
                             </a>
@@ -54,6 +52,7 @@
                 <h1 class="main-header">Отзывы</h1>
                 <ul class="reviews">
                     <li class="reviews__item">
+
                         <img src="/img/awatars/awatar-1.png" alt="" class="reviews__img">
                         <div class="reviews__date">
                             12.10.2016
@@ -116,11 +115,8 @@
                     </li>
                 </ul>
                 <div class="page-change">
-                    <span class="page-change-text">Страница 1 из 7</span>
+                    <span class="page-change-text">Страница 1 из 7</span> &lt;
                     <ul class="paginator">
-                        <li class="paginator__arrow">
-                            &lt;
-                        </li>
                         <li class="paginator__figure">1</li>
                         <li class="paginator__figure">2</li>
                         <li class="paginator__figure">3</li>
@@ -128,16 +124,14 @@
                         <li class="paginator__figure">5</li>
                         <li class="paginator__figure">6</li>
                         <li class="paginator__figure">7</li>
-                        <li class="paginator__arrow">
-                            <b>&gt;</b>
-                        </li>
                     </ul>
+                    <b>&gt;</b>
                 </div>
                 <div class="form-addreview"></div>
             </main>
         </section>
 
-         <footer class="footer">
+        <footer class="footer">
             <div class="lefttext">
                 Сделано с любовью и старанием<br> на курсе «HTML + CSS» в <a class="footer__link" href="">LoftSchool</a>.<br>                Автор работы: <b>Прохладов Вадим</b>
             </div>
