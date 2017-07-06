@@ -9,14 +9,14 @@
 
 <body>
     <div class="wrapper">
-        <header class="header">
+        <header class="header clearfix">
             <div class="logo">Афродита</div>
             <div class="contacts">
                 <div class="contacts__phone">8 (800) 00-392-10</div>
                 <a class="contacts__schedule" href="#">График работы</a>
             </div>
         </header>
-        <section class="page">
+        <section class="page clearfix">
             <!--Menu-->
             <aside class="sidebar">
                 <nav class="menu">
@@ -24,14 +24,14 @@
                         <li class="nav-menu__item">
                             <a href="" class="nav-menu__link">
                                 <div class="nav-menu__icon nav-menu__icon-main"></div>
-                                <div class="nav-menu__text nav-menu__noaactive">Главная</div>
+                                <div class="nav-menu__text">Главная</div>
                             </a>
                         </li>
                         <li class="nav-menu__item">
                             <a href="" class="nav-menu__link">
                                 <div class="nav-menu__icon nav-menu__icon-tariffs">
                                 </div>
-                                <div class="nav-menu__text nav-menu__noaactive">Тарифы</div>
+                                <div class="nav-menu__text">Услуги</div>
                             </a>
                         </li>
                         <li class="nav-menu__item nav-menu__selected">
@@ -45,77 +45,81 @@
                 </nav>
             </aside>
 
-            <main class="main-content">
-                <div class="route-links">
-                    <a href="" class="route-links__mainpage">Главная</a> / Отзывы
+            <main class="review">
+                <div class="review__route-links">
+                    <a href="" class="review__route-links__bread">Главная</a> / Отзывы
                 </div>
-                <h1 class="main-header">Отзывы</h1>
+                <h1 class="review-header">Отзывы</h1>
                 <ul class="reviews">
-                    <li class="reviews__item">
-
+                    <li class="reviews__item clearfix">
                         <img src="/img/awatars/awatar-1.png" alt="" class="reviews__img">
-                        <div class="reviews__date">
-                            12.10.2016
+                        <div class="reviews__right-block">
+                            <div class="reviews__date">
+                                12.10.2016
+                            </div>
+                            <div class="reviews__name">
+                                Алексей Воронов
+                            </div>
+                            <p class="reviews__review">
+                                Пришел, чтобы похудеть немного к лету, но благодаря тренеру Александру Ковалеву, получилось накачать нормальные банки. Втянулся,
+                                теперь занимаюсь регулярно, 2 раза в неделю, доволен и всем советую. Кстати, польза от тренировок намного заметнее, если придерживаться ПП. Рацион мне составили на неделю, но я его повторяю,
+                                не надоедает.
+                            </p>
                         </div>
-                        <div class="reviews__name">
-                            Алексей Воронов
-                        </div>
-                        <p class="reviews__review">
-                            Пришел, чтобы похудеть немного к лету, но благодаря тренеру Александру Ковалеву, получилось накачать нормальные банки. Втянулся,
-                            теперь занимаюсь регулярно, 2 раза в неделю, доволен и всем советую. Кстати, польза от тренировок
-                            намного заметнее, если придерживаться ПП. Рацион мне составили на неделю, но я его повторяю,
-                            не надоедает.
-                        </p>
-
                     </li>
-                    <li class="reviews__item">
+                    <li class="reviews__item clearfix">
                         <img src="/img/awatars/avatar-2.png" alt="" class="reviews__img">
-                        <div class="reviews__date">
-                            01.02.2016
+                        <div class="reviews__right-block">
+                            <div class="reviews__date">
+                                01.02.2016
+                            </div>
+                            <div class="reviews__name">
+                                Инна Смольная
+                            </div>
+                            <p class="reviews__review">
+                                Подарили на день рождения абонемент в бассейн, пришлось воспользоваться. Сама бы я сюда не пришла, не очень нравится плавать
+                                с мужиками, которые пялятся постоянно, администрации следует обратить внимание на этот вопрос!
+                                Еще бросилось в глаза хамство обслуживающего персонала. Уборщица в раздевалке вела себя,
+                                как будто это к ней в гости пришли.
+                            </p>
                         </div>
-                        <div class="reviews__name">
-                            Инна Смольная
-                        </div>
-                        <p class="reviews__review">
-                            Подарили на день рождения абонемент в бассейн, пришлось воспользоваться. Сама бы я сюда не пришла, не очень нравится плавать
-                            с мужиками, которые пялятся постоянно, администрации следует обратить внимание на этот вопрос!
-                            Еще бросилось в глаза хамство обслуживающего персонала. Уборщица в раздевалке вела себя, как
-                            будто это к ней в гости пришли.
-                        </p>
-
                     </li>
-                    <li class="reviews__item">
+                    <li class="reviews__item clearfix">
                         <img src="img/awatars/avatar-clear.png" alt="" class="reviews__img">
-                        <div class="reviews__date">
-                            22.12.2015
+                        <div class="reviews__right-block">
+                            <div class="reviews__date">
+                                22.12.2015
+                            </div>
+                            <div class="reviews__name">
+                                Владимир Савельев
+                            </div>
+                            <p class="reviews__review">
+                                Норм клуб, железа хватает, но техника устаревшая. За эту цену – прокатит. Если хотите большего, то обращайтесь в специализированные
+                                тренажерки с новым железом и европейской техникой.
+                            </p>
                         </div>
-                        <div class="reviews__name">
-                            Владимир Савельев
-                        </div>
-                        <p class="reviews__review">
-                            Норм клуб, железа хватает, но техника устаревшая. За эту цену – прокатит. Если хотите большего, то обращайтесь в специализированные
-                            тренажерки с новым железом и европейской техникой.
-                        </p>
-
                     </li>
-                    <li class="reviews__item">
+                    <li class="reviews__item clearfix">
                         <img src="img/awatars/awatar-3.png" alt="" class="reviews__img">
-                        <div class="reviews__date">
-                            12.10.2016
+                        <div class="reviews__right-block">
+                            <div class="reviews__date">
+                                14.08.2015
+                            </div>
+                            <div class="reviews__name">
+                                Ирина Савина
+                            </div>
+                            <p class="reviews__review">
+                                Занимаюсь 4й месяц на петлях ТРХ и очень нравится результат. Даже знакомые отметили, что я помолодела, появилась талия, ножки
+                                постройнели. Нагрузка сначала была непривычная, но втягиваешься быстро, тем более, что отражение
+                                в зеркале радует. Цены приятные, а если платить на полгода вперед, то вообще выгодно получается,
+                                скидка почти 30%.
+                            </p>
                         </div>
-                        <div class="reviews__name">
-                            Ирина Савина
-                        </div>
-                        <p class="reviews__review">
-                            Занимаюсь 4й месяц на петлях ТРХ и очень нравится результат. Даже знакомые отметили, что я помолодела, появилась талия, ножки
-                            постройнели. Нагрузка сначала была непривычная, но втягиваешься быстро, тем более, что отражение
-                            в зеркале радует. Цены приятные, а если платить на полгода вперед, то вообще выгодно получается,
-                            скидка почти 30%.
-                        </p>
                     </li>
                 </ul>
                 <div class="page-change">
-                    <span class="page-change-text">Страница 1 из 7</span> &lt;
+                    <span class="page-change-text">Страница 1 из 7</span>
+                    <div class="page-change__left-arrow">&lt;</div>
                     <ul class="paginator">
                         <li class="paginator__figure">1</li>
                         <li class="paginator__figure">2</li>
@@ -125,7 +129,7 @@
                         <li class="paginator__figure">6</li>
                         <li class="paginator__figure">7</li>
                     </ul>
-                    <b>&gt;</b>
+                    <div class="page-change__right-arrow">&gt;</div>                    
                 </div>
                 <div class="form">
                     <div class="form__title">
@@ -135,13 +139,13 @@
                         <form action="" class="form__elem" method="post">
                             <div class="form__row clearfix">
                                 <label class="form__cell">
-                                    <div class="form__field-title">
+                                    <div class="form__fields-title">
                                         Ваше имя
                                     </div>                                
                                 <input class="form__input-text" type="text" value="" placeholder="Введите имя">
                                 </label>
                                 <label class="form__cell">
-                                    <div class="form__field-title">
+                                    <div class="form__fields-title">
                                         Ссылка на провиль VK
                                     </div>                                
                                 <input class="form__input-text" type="text" value="" placeholder="Вставьте ссылку">
@@ -149,26 +153,51 @@
                             </div>
                             <div class="form__row">
                                 <label class="form__textarea-label">
-                                    <div class="form__field-title">
+                                    <div class="form__fields-title">
                                         Текст отзыва    
                                     </div>
                                     <textarea class="form__textarea" placeholder="Введите сообщение"></textarea>   
                                 </label>
                             </div>
-
+                            <div class="form__btns">
+                                <div class="form__controls">
+                                    <div class="form_controls-title">
+                                        Отображать фото в отзыве
+                                    </div>
+                                    <div class="form__controls-btns clearfix">
+                                        <div class="form__controls-left">
+                                            <label class="form__radio">
+                                                <input type="radio" name="review" class="form__radio-elem" checked>
+                                                <div class="form__elem-radiofake"></div>
+                                                <div class="form__radio-text">Да</div>
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="review" class="form__radio-elem">
+                                                <div class="form__elem-radiofake"></div>
+                                                <div class="form__radio-text">Нет</div>
+                                            </label>
+                                        </div>
+                                        <div class="form__controls-right">
+                                            <input type="submit" value="Отправить" class="form__submit">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
             </main>
         </section>
 
-        <footer class="footer">
+        <footer class="footer clearfix">
             <div class="lefttext">
                 Сделано с любовью и старанием<br> на курсе «HTML + CSS» в <a class="footer__link" href="">LoftSchool</a>.<br>                Автор работы: <b>Прохладов Вадим</b>
             </div>
-            <div class="logo">Афродита</div>
-            <div class="righttext">Наши социальные сети</div>
+            
+            <div class="footer-logo">Афродита</div>
+            
             <div class="social-networks">
+                <div class="righttext">Наши социальные сети</div>
                 <div class="social-networks__text"></div>
                 <ul class="social-networks__list">
                     <li class="social-networks__item">
