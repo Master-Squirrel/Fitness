@@ -7,56 +7,57 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body class="main-body">
+<body>
     <div class="wrapper">
         <!--Header-->
-        <header class="header">
-            <div class="logo">Афродита</div>
-            <div class="contacts">
-                <div class="contacts__phone">8 (800) 00-392-10</div>
-                <a class="contacts__schedule" href="#">График работы</a>
+        <header class="header ">
+            <div class="container clearfix">
+                <a class="logo-link" href="main.html">
+                    <div class="logo">Афродита</div>
+                </a>
+                <div class="contacts">
+                    <div class="contacts__phone">8 (800) 00-392-10</div>
+                    <a class="contacts__schedule" href="#">График работы</a>
+                </div>
             </div>
         </header>
-        <section class="page">
+
+        <section class="page clearfix">
+            <div class="container clearfix">
             <!--Menu-->
             <aside class="sidebar">
-                <nav class="menu">
-                    <ul class="nav-menu">
-                        <li class="nav-menu__item">
-                            <a href="" class="nav-menu__link">
-                                <div class="nav-menu__icon nav-menu__icon-main"></div>
-                                <div class="nav-menu__text nav-menu__noaactive">Главная</div>
-                            </a>
-                        </li>
-                        <li class="nav-menu__item">
-                            <a href="" class="nav-menu__link">
-                                <div class="nav-menu__icon nav-menu__icon-tariffs">
-                                </div>
-                                <div class="nav-menu__text nav-menu__noaactive">Тарифы</div>
-                            </a>
-                        </li>
-                        <li class="nav-menu__item nav-menu__selected">
-                            <a href="comments.html" class="nav-menu__link">
-                                <div class="nav-menu__icon nav-menu__icon-reviews">
-                                </div>
-                                <div class="nav-menu__text">Отзывы</div>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+            <nav class="menu">
+                <ul class="nav-menu">
+                <li class="nav-menu__item nav-menu__item_active">
+                    <a href="" class="nav-menu__link">
+                    <div class="nav-menu__icon nav-menu__icon_triangle"></div>
+                    <div class="nav-menu__text">Главная</div>
+                    </a>
+                </li>
+                <li class="nav-menu__item">
+                    <a href="" class="nav-menu__link">
+                    <div class="nav-menu__icon nav-menu__icon_wallet">
+                    </div>
+                    <div class="nav-menu__text">Тарифы</div>
+                    </a>
+                </li>
+                <li class="nav-menu__item">
+                    <a href="comments.html" class="nav-menu__link">
+                    <div class="nav-menu__icon nav-menu__icon_star">
+                    </div>
+                    <div class="nav-menu__text">Отзывы</div>
+                    </a>
+                </li>
+                </ul>
+            </nav>
             </aside>
 
             <!--Main page content-->
             <main class="main-content">
                 <div class="page-image">
-
-
-                    <div class="page-image__text">
-                        <img src="img/bg/bg-afrodita.jpg" alt="" class="page-image__picture">
-                        <h1 class="page-image__title">О компании</h1>
-                    </div>
+                    <img src="img/bg/bg-afrodita.jpg" class="page-image__picture">
+                    <div class="page-image__text">О компании</div>
                 </div>
-
                 <!--Page text-->
                 <div class="page-text">
                     <p class="paragraph">
@@ -103,9 +104,8 @@
                 </div>
 
                 <!--Partners block-->
-                <h2 class="partners-header">Партнёры</h2>
                 <div class="partners">
-                    <h2 class="partners__title"></h2>
+                    <h2 class="partners-header">Партнёры</h2>
                     <ul class="partners_list">
                         <li class="partners__item">
                             <a class="partners__link" href="">
@@ -119,7 +119,7 @@
                         </li>
                         <li class="partners__item">
                             <a class="partners__link" href="">
-                            <img src="img/logo/logo-3-color.png" alt="" class="partners__image">
+                            <img src="img/logo/logo-3.png" alt="" class="partners__image">
                         </a>
                         </li>
                         <li class="partners__item">
@@ -140,47 +140,59 @@
                     </ul>
                 </div>
             </main>
+            </div>
         </section>
-
-        <footer class="footer">
-            <div class="lefttext">
-                Сделано с любовью и старанием<br> на курсе «HTML + CSS» в <a class="footer__link" href="">LoftSchool</a>.<br>                Автор работы: <b>Прохладов Вадим</b>
-            </div>
-            <div class="logo">Афродита</div>
-            <div class="righttext">Наши социальные сети</div>
-            <div class="social-networks">
-                <div class="social-networks__text"></div>
-                <ul class="social-networks__list">
-                    <li class="social-networks__item">
-                        <a href="" class="social-networks__link">
-                            <div class="sn-icon sn-vk"> </div>
-                        </a>
-                    </li>
-                    <li class="social-networks__item">
-                        <a href="" class="social-networks__link">
-                            <div class="sn-icon sn-facebook"> </div>
-                        </a>
-                    </li>
-                    <li class="social-networks__item">
-                        <a href="" class="social-networks__link">
-                            <div class="sn-icon sn-google"> </div>
-                        </a>
-                    </li>
-                    <li class="social-networks__item">
-                        <a href="" class="social-networks__link">
-                            <div class="sn-icon sn-twitter"> </div>
-                        </a>
-                    </li>
-                    <li class="social-networks__item">
-                        <a href="" class="social-networks__link">
-                            <div class="sn-icon sn-mail"> </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
-
     </div>
+    
+    <footer class="footer">
+        <div class="container clearfix">
+            <div class="footer-col">
+                <div class="footer-lovetext">
+                    Сделано с любовью и старанием<br> на курсе «HTML + CSS» в <a class="footer__link" href="">LoftSchool</a>.<br>                    Автор работы: <b>Прохладов Вадим</b>
+                </div>
+            </div>
+
+            <div class="footer-col footer-col-logo">
+                <div class="footer-logo">Афродита</div>
+            </div>
+
+            <div class="footer-col footer-col-networks">
+                <div class="social-networks">
+                    
+                        <div class="social-networks__text">Наши социальные сети</div>
+                        <ul class="social-networks__list">
+                            <li class="social-networks__item">
+                                <a href="" class="social-networks__link">
+                                    <div class="sn-icon sn-vk"> </div>
+                                </a>
+                            </li>
+                            <li class="social-networks__item">
+                                <a href="" class="social-networks__link">
+                                    <div class="sn-icon sn-facebook"> </div>
+                                </a>
+                            </li>
+                            <li class="social-networks__item">
+                                <a href="" class="social-networks__link">
+                                    <div class="sn-icon sn-google"> </div>
+                                </a>
+                            </li>
+                            <li class="social-networks__item">
+                                <a href="" class="social-networks__link">
+                                    <div class="sn-icon sn-twitter"> </div>
+                                </a>
+                            </li>
+                            <li class="social-networks__item">
+                                <a href="" class="social-networks__link">
+                                    <div class="sn-icon sn-mail"> </div>
+                                </a>
+                            </li>
+                        </ul>
+                   
+                </div>
+            </div>
+        </div>
+
+    </footer>
 </body>
 
 </html>

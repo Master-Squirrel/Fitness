@@ -1,0 +1,49 @@
+.page-change {
+    font-size: 14px;
+    text-align: center;
+    margin: 30px 65px 0 0px;
+}
+
+.page-change-text {
+    color: #656464;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.page-change__left-arrow,
+.page-change__right-arrow {
+    display: inline-block;
+}
+
+.page-change__left-arrow {
+    padding-left: 20px;
+    padding-right: 15px;
+    color: #bebdbd;
+}
+
+.page-change__right-arrow {
+    padding-left: 10px;
+}
+
+.paginator {
+    display: inline-block;
+    padding: 0;
+}
+
+.paginator__figure {
+    color: #221f1f;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    border-radius: 3px;
+}
+
+.paginator__figure:first-of-type {
+    color: #f89513;
+    font-weight: bold;
+    background-color: #131415;
+}
+
+.paginator {
+    list-style: none
+}

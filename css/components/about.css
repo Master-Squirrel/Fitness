@@ -1,0 +1,22 @@
+.page-image {
+    position: relative;
+}
+
+.page-image__text {
+    font-size: 49px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    position: absolute;
+    top: 165px;
+    left: 67px;
+    
+}
+.page-text p {
+    font-size: 18px;
+    margin-bottom: 20px;   
+}
+.page-text ul li{
+    padding: 0;
+    margin-bottom: 15px;
+}

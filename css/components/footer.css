@@ -1,0 +1,75 @@
+/* Footer */
+.footer {
+    background: #131415;
+    font-size: 14px;
+    color: #ffffff;
+    width: 100%;
+    display: block;
+    height: 77px;    
+    margin-top: -77px;
+    min-width: 1060;
+}
+.footer-col {
+    float: left;
+    width: 33%;
+}
+.footer-lovetext {
+    display: inline-block;
+    text-align: left;
+}
+.footer__link {
+    color: #ffffff;
+    font-weight: bold;
+}
+.footer-col-logo {
+    text-align: center;
+    height: 77px;    
+}
+.footer-logo {
+    display: inline-block;
+    text-align: center;  
+    font-family: GoraFree;
+    font-size: 18px;
+    color: #f89513;  
+}
+.footer-col-networks
+{
+    text-align: right;
+}
+.social-networks {
+    display: inline-block;
+    text-align: left;
+}
+
+.social-networks__list {
+    list-style: none;
+    margin: 0;
+    
+}
+.social-networks__item {
+    display: inline-block;
+    
+    
+}
+
+.sn-icon {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.sn-vk {
+    background: url("../../img/icons/vk-color.png")
+}
+.sn-facebook {
+    background: url("../../img/icons/fb.png")
+}
+.sn-google {
+    background: url("../../img/icons/google.png")
+}
+.sn-twitter {
+    background: url("../../img/icons/twitter.png")
+}
+.sn-mail {
+    background: url("../../img/icons/mail.png")
+}
