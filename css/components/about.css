@@ -1,5 +1,21 @@
+.page-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-right: 20%;
+}
+
+.page-text ul li {
+    padding: 0;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
 .page-image {
     position: relative;
+}
+
+.page-image__picture {
+    max-width: 100%;
 }
 
 .page-image__text {
@@ -10,13 +26,34 @@
     position: absolute;
     top: 165px;
     left: 67px;
-    
 }
-.page-text p {
-    font-size: 18px;
-    margin-bottom: 20px;   
+
+.description {
+    background: #000000;
+    color: #ffffff;
+    padding: 5px 30px;
+    margin-top: 20px;
 }
-.page-text ul li{
-    padding: 0;
-    margin-bottom: 15px;
+
+.partners {
+    padding: 70px 0 0 0;
+}
+
+.partners-header {
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.partners_list {
+    list-style: none;
+    padding: 50px 0 0 0;
+    width: 1000px;
+}
+
+.partners__item {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    width: 33%;
+    margin: 0 0 50px 0;
 }

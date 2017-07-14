@@ -11,17 +11,33 @@
 
 <body>
     <div class="wrapper">
-        <header class="header ">
-            <div class="container clearfix">
+        <header class="header no-inline-spacing">
+            <div class="container no-inline-spacing height">
                 <a class="logo-link" href="main.html">
                     <div class="logo">Афродита</div>
                 </a>
                 <div class="contacts">
-                    <div class="contacts__phone">8 (800) 00-392-10</div>
-                    <a class="contacts__schedule" href="#">График работы</a>
+                    <a class="contacts__phone">8 (800) 00-392-10</a>
+                    <div class="contacts__elem" href="#">
+                        <div class="contacts__schedule">
+                            График работы
+                        </div>
+                        <div class="dropdown">
+                            <div class="contacts__time">
+                                <div class="contacts__time-first-string">
+                                    пн-вс: 09:00-20:00
+                                </div>
+                                <div class="contacts__time-second-string">
+                                    обед: 14:00-14:30
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
+
         <section class="page">
             <div class="container clearfix">
                 <!--Menu-->
@@ -30,20 +46,21 @@
                         <ul class="nav-menu">
                             <li class="nav-menu__item">
                                 <a href="main.html" class="nav-menu__link">
-                                    <div class="nav-menu__icon nav-menu__icon-main"></div>
+                                    <div class="nav-menu__icon nav-menu__icon_line">
+                                    </div>
                                     <div class="nav-menu__text">Главная</div>
                                 </a>
                             </li>
                             <li class="nav-menu__item">
                                 <a href="" class="nav-menu__link">
-                                    <div class="nav-menu__icon nav-menu__icon-tariffs">
+                                    <div class="nav-menu__icon nav-menu__icon_tarifs">
                                     </div>
-                                    <div class="nav-menu__text">Услуги</div>
+                                    <div class="nav-menu__text">Тарифы</div>
                                 </a>
                             </li>
-                            <li class="nav-menu__item nav-menu__selected">
-                                <a href="comments.html" class="nav-menu__link">
-                                    <div class="nav-menu__icon nav-menu__icon-reviews">
+                            <li class="nav-menu__item">
+                                <a href="comments.html" class="nav-menu__link nav-menu--selected">
+                                    <div class="nav-menu__icon nav-menu__icon_reviews">
                                     </div>
                                     <div class="nav-menu__text">Отзывы</div>
                                 </a>

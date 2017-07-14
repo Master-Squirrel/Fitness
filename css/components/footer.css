@@ -5,9 +5,10 @@
     color: #ffffff;
     width: 100%;
     display: block;
-    height: 77px;    
+    height: 97px;    
     margin-top: -77px;
     min-width: 1060;
+    padding-top: 20px;
 }
 .footer-col {
     float: left;

@@ -4,146 +4,163 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <div class="wrapper">
         <!--Header-->
-        <header class="header ">
-            <div class="container clearfix">
+        <header class="header no-inline-spacing">
+            <div class="container no-inline-spacing height">
                 <a class="logo-link" href="main.html">
                     <div class="logo">Афродита</div>
                 </a>
                 <div class="contacts">
-                    <div class="contacts__phone">8 (800) 00-392-10</div>
-                    <a class="contacts__schedule" href="#">График работы</a>
+                    <a class="contacts__phone">8 (800) 00-392-10</a>
+                    <div class="contacts__elem" href="#">
+                        <div class="contacts__schedule">
+                            График работы
+                        </div>
+                        <div class="dropdown">
+                            <div class="contacts__time">
+                                <div class="contacts__time-first-string">
+                                    пн-вс: 09:00-20:00
+                                </div>
+                                <div class="contacts__time-second-string">
+                                    обед: 14:00-14:30
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
 
         <section class="page clearfix">
             <div class="container clearfix">
-            <!--Menu-->
-            <aside class="sidebar">
-            <nav class="menu">
-                <ul class="nav-menu">
-                <li class="nav-menu__item nav-menu__item_active">
-                    <a href="" class="nav-menu__link">
-                    <div class="nav-menu__icon nav-menu__icon_triangle"></div>
-                    <div class="nav-menu__text">Главная</div>
-                    </a>
-                </li>
-                <li class="nav-menu__item">
-                    <a href="" class="nav-menu__link">
-                    <div class="nav-menu__icon nav-menu__icon_wallet">
-                    </div>
-                    <div class="nav-menu__text">Тарифы</div>
-                    </a>
-                </li>
-                <li class="nav-menu__item">
-                    <a href="comments.html" class="nav-menu__link">
-                    <div class="nav-menu__icon nav-menu__icon_star">
-                    </div>
-                    <div class="nav-menu__text">Отзывы</div>
-                    </a>
-                </li>
-                </ul>
-            </nav>
-            </aside>
-
-            <!--Main page content-->
-            <main class="main-content">
-                <div class="page-image">
-                    <img src="img/bg/bg-afrodita.jpg" class="page-image__picture">
-                    <div class="page-image__text">О компании</div>
-                </div>
-                <!--Page text-->
-                <div class="page-text">
-                    <p class="paragraph">
-                        <b>Фитнес-центр «Афродита»</b> приглашает вас оздоровиться и провести приятно время с друзьями или
-                        знакомыми, занимаясь вместе спортом. Квалифицированные тренеры найдут индивидуальный подход к каждому,
-                        помогут достигнуть поставленных целей и определят оптимальную нагрузку.</p>
-                    <p class="paragraph">
-                        Нашим главным отличием мы считаем огромный <b>50 метровый бассейн</b>, состоящий из 6 дорожек. Помимо
-                        бассейна в зоне отдыха установлены финские сауны и турецкий хамам. Это прекрасный вариант для восстановления
-                        после тяжелой тренировки.
-                        <p class="paragraph">
-                            На первом этаже в фитобаре вы сможете заказать травяные чаи, белковые коктейли, минеральную воду и протеиновые батончики.
-                            Также здесь есть детская комната с воспитателями и нянями, которые присмотрят за вашими детьми
-                            в течение тренировки.
-                        </p>
-                        <p class="paragraph">
-                            Наши цены на 100% оправданы высоким качеством сервиса. Если вы хотите выгодно приобрести абонемент, обращайтесь к администраторам,
-                            которые подскажут оптимальные программы конкретно под ваши потребности. <b>Нашими ключевыми направлениями остаются:</b>
-                        </p>
-                        <ul>
-                            <li>
-                                йога;
+                <!--Menu-->
+                <aside class="sidebar">
+                    <nav class="menu">
+                        <ul class="nav-menu">
+                            <li class="nav-menu__item">
+                                <a href="" class="nav-menu__link nav-menu--selected">
+                                    <div class="nav-menu__icon nav-menu__icon_line">
+                                    </div>
+                                    <div class="nav-menu__text">Главная</div>
+                                </a>
                             </li>
-                            <li>
-                                фитнес;
+                            <li class="nav-menu__item">
+                                <a href="" class="nav-menu__link">
+                                    <div class="nav-menu__icon nav-menu__icon_tarifs">
+                                    </div>
+                                    <div class="nav-menu__text">Тарифы</div>
+                                </a>
                             </li>
-                            <li>
-                                занятия в бассейне;
-                            </li>
-                            <li>
-                                кроссфит;
-                            </li>
-                            <li>
-                                ТРХ петли.
+                            <li class="nav-menu__item">
+                                <a href="comments.html" class="nav-menu__link">
+                                    <div class="nav-menu__icon nav-menu__icon_reviews">
+                                    </div>
+                                    <div class="nav-menu__text">Отзывы</div>
+                                </a>
                             </li>
                         </ul>
-                </div>
-                <div class="description">
-                    <p>
-                        Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров, психологов. Также есть кабинет
-                        массажа, зал спа рядом с бассейном и возможность арендовать центр для проведения массовых мероприятий.
-                        <b>Ждем ваших заявок!</b>
-                    </p>
-                </div>
+                    </nav>
+                </aside>
+                <!--Main page content-->
+                <main class="main-content">
+                    <div class="page-image">
+                        <img src="img/bg/bg-afrodita.jpg" class="page-image__picture">
+                        <div class="page-image__text">О компании</div>
+                    </div>
+                    <!--Page text-->
+                    <div class="page-text">
+                        <p class="paragraph">
+                            <b>Фитнес-центр «Афродита»</b> приглашает вас оздоровиться и провести приятно время с друзьями
+                            или знакомыми, занимаясь вместе спортом. Квалифицированные тренеры найдут индивидуальный подход
+                            к каждому, помогут достигнуть поставленных целей и определят оптимальную нагрузку.</p>
+                        <p class="paragraph">
+                            Нашим главным отличием мы считаем огромный <b>50 метровый бассейн</b>, состоящий из 6 дорожек.
+                            Помимо бассейна в зоне отдыха установлены финские сауны и турецкий хамам. Это прекрасный вариант
+                            для восстановления после тяжелой тренировки.
+                            <p class="paragraph">
+                                На первом этаже в фитобаре вы сможете заказать травяные чаи, белковые коктейли, минеральную воду и протеиновые батончики.
+                                Также здесь есть детская комната с воспитателями и нянями, которые присмотрят за вашими детьми
+                                в течение тренировки.
+                            </p>
+                            <p class="paragraph">
+                                Наши цены на 100% оправданы высоким качеством сервиса. Если вы хотите выгодно приобрести абонемент, обращайтесь к администраторам,
+                                которые подскажут оптимальные программы конкретно под ваши потребности. <b>Нашими ключевыми направлениями остаются:</b>
+                            </p>
+                            <ul>
+                                <li>
+                                    йога;
+                                </li>
+                                <li>
+                                    фитнес;
+                                </li>
+                                <li>
+                                    занятия в бассейне;
+                                </li>
+                                <li>
+                                    кроссфит;
+                                </li>
+                                <li>
+                                    ТРХ петли.
+                                </li>
+                            </ul>
+                            <div class="description">
+                                <p>
+                                    Помимо перечисленных услуг, мы предоставляем консультации профессиональных диетологов, тренеров, психологов. Также есть кабинет
+                                    массажа, зал спа рядом с бассейном и возможность арендовать центр для проведения массовых
+                                    мероприятий.
+                                    <b>Ждем ваших заявок!</b>
+                                </p>
+                            </div>
+                    </div>
 
-                <!--Partners block-->
-                <div class="partners">
-                    <h2 class="partners-header">Партнёры</h2>
-                    <ul class="partners_list">
-                        <li class="partners__item">
-                            <a class="partners__link" href="">
+                    <!--Partners block-->
+                    <div class="partners">
+                        <h2 class="partners-header">Партнёры</h2>
+                        <ul class="partners_list">
+                            <li class="partners__item">
+                                <a class="partners__link" href="">
                             <img src="img/logo/logo-1.png" alt="" class="partners__image">
                         </a>
-                        </li>
-                        <li class="partners__item">
-                            <a class="partners__link" href="">
+                            </li>
+                            <li class="partners__item">
+                                <a class="partners__link" href="">
                             <img src="img/logo/logo-2.png" alt="" class="partners__image">
                         </a>
-                        </li>
-                        <li class="partners__item">
-                            <a class="partners__link" href="">
+                            </li>
+                            <li class="partners__item">
+                                <a class="partners__link" href="">
                             <img src="img/logo/logo-3.png" alt="" class="partners__image">
                         </a>
-                        </li>
-                        <li class="partners__item">
-                            <a class="partners__link" href="">
+                            </li>
+                            <li class="partners__item">
+                                <a class="partners__link" href="">
                             <img src="img/logo/logo-4.png" alt="" class="partners__image">
                         </a>
-                        </li>
-                        <li class="partners__item">
-                            <a class="partners__link" href="">
+                            </li>
+                            <li class="partners__item">
+                                <a class="partners__link" href="">
                             <img src="img/logo/logo-5.png" alt="" class="partners__image">
                         </a>
-                        </li>
-                        <li class="partners__item">
-                            <a class="partners__link" href="">
+                            </li>
+                            <li class="partners__item">
+                                <a class="partners__link" href="">
                             <img src="img/logo/logo-6.png" alt="" class="partners__image">
                         </a>
-                        </li>
-                    </ul>
-                </div>
-            </main>
+                            </li>
+                        </ul>
+                    </div>
+                </main>
             </div>
         </section>
     </div>
-    
+
     <footer class="footer">
         <div class="container clearfix">
             <div class="footer-col">
@@ -158,36 +175,36 @@
 
             <div class="footer-col footer-col-networks">
                 <div class="social-networks">
-                    
-                        <div class="social-networks__text">Наши социальные сети</div>
-                        <ul class="social-networks__list">
-                            <li class="social-networks__item">
-                                <a href="" class="social-networks__link">
-                                    <div class="sn-icon sn-vk"> </div>
-                                </a>
-                            </li>
-                            <li class="social-networks__item">
-                                <a href="" class="social-networks__link">
-                                    <div class="sn-icon sn-facebook"> </div>
-                                </a>
-                            </li>
-                            <li class="social-networks__item">
-                                <a href="" class="social-networks__link">
-                                    <div class="sn-icon sn-google"> </div>
-                                </a>
-                            </li>
-                            <li class="social-networks__item">
-                                <a href="" class="social-networks__link">
-                                    <div class="sn-icon sn-twitter"> </div>
-                                </a>
-                            </li>
-                            <li class="social-networks__item">
-                                <a href="" class="social-networks__link">
-                                    <div class="sn-icon sn-mail"> </div>
-                                </a>
-                            </li>
-                        </ul>
-                   
+
+                    <div class="social-networks__text">Наши социальные сети</div>
+                    <ul class="social-networks__list">
+                        <li class="social-networks__item">
+                            <a href="" class="social-networks__link">
+                                <div class="sn-icon sn-vk"> </div>
+                            </a>
+                        </li>
+                        <li class="social-networks__item">
+                            <a href="" class="social-networks__link">
+                                <div class="sn-icon sn-facebook"> </div>
+                            </a>
+                        </li>
+                        <li class="social-networks__item">
+                            <a href="" class="social-networks__link">
+                                <div class="sn-icon sn-google"> </div>
+                            </a>
+                        </li>
+                        <li class="social-networks__item">
+                            <a href="" class="social-networks__link">
+                                <div class="sn-icon sn-twitter"> </div>
+                            </a>
+                        </li>
+                        <li class="social-networks__item">
+                            <a href="" class="social-networks__link">
+                                <div class="sn-icon sn-mail"> </div>
+                            </a>
+                        </li>
+                    </ul>
+
                 </div>
             </div>
         </div>
