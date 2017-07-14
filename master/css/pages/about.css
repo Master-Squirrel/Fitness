@@ -76,5 +76,6 @@
 }
 
 .partners__item_right .partners__image {
-  right: 0;
+    left: 50%;
+  transform: translate(-50%, -50%);
 }
