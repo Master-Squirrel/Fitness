@@ -7,7 +7,11 @@
 @import "components/form.css";
 @import "components/footer.css";
 @import "components/main-content.css";
-@import "components/about.css";
-@import "components/reviews.css";
 @import "components/paginator.css";
-@import "components/welcome.css";
+@import "components/breadcrumbs.css";
+@import "components/section-title.css";
+
+@import "pages/welcome.css";
+@import "pages/reviews.css";
+@import "pages/about.css";
+@import "pages/services.css";

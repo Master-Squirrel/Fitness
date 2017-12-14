@@ -4,26 +4,6 @@
     display: block;
     width: 900px;
 }
-.bread__item {
-    display: inline-block;
-    vertical-align: middle;
-}
-.bread__item::after{
-    content: "/"
-}
-.bread__link {
-    font-size: 14px;
-    color: #f89513;
-    display: inline-block;
-}
-.bread__item--last::after {
-display: none;
-}
-.bread__item--last .bread__link {
-    color: #000000;
-    text-decoration: none;
-}    
-
 
 .reviews {
     list-style: none;
